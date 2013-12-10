@@ -485,6 +485,7 @@ footer li, header li {
 
 /* Buttons */
 
+
 .btn {
 	border: none;
 	font-family: inherit;
@@ -600,6 +601,11 @@ footer li, header li {
   cursor: not-allowed;
 }
 
+@media only screen and (max-width: 480px) {
+  .btn {
+    width: 100%;
+  }
+}
 
 /* Emphasis Classes */
 
@@ -841,4 +847,3 @@ footer li, header li {
 		font-size: 1.375em;
 	}
 }
-

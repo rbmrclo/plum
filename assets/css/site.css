@@ -51,7 +51,7 @@ section h3.sec-subheader {
 }
 
 @media only screen and (max-width: 480px) {
-  .header, .sub-header {
+  .btn, .header, .sub-header {
     width: 100%;
   }
 }
